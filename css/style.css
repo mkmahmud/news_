@@ -1,0 +1,106 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+}
+
+/* NavBar */
+
+.navbar-brand span{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+.rightMenu{
+    display: flex;
+}
+.rightMenu ul{
+    display: flex;
+    align-items: center;
+}
+
+.rightMenu ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+.rightMenu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.liButton{
+    border: none;
+    background: no-repeat;
+    color: white;
+}
+
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* Category */
+
+.category-list{
+    display: flex;
+    background-color: #324242;
+    color: white;
+}
+
+.category-list li{
+    list-style: none;
+    margin: 20px 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.active{
+    color: aqua;
+}
+
+
+/* Posts */
+
+.posts-thambnail{
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.userProfile img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card-text{
+    font-size: 17px;
+}
+
+/* Modal  */
+
+.modal-body img{
+    width: 100%;
+    height: 400px;
+}
+
+/* Spinner */
+.spinner{
+    display: none;
+}
+
+/* Responsive  */
+@media only screen and (max-width: 768px){
+	.category-list{
+        display: block;
+    }
+}

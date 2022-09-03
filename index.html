@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlossomBD </title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/c322e55666.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body>
+        <!--  Navbar    -->
+        <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><span>B</span>lossom</a>
+              <div class="rightMenu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>FAQ</li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+                <div class="profile">
+                    <img src="img/profile.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--  Navbar    -->
+
+
+        <!-- Categories -->
+        <div class="container-fluid">
+            <div class="row">
+                <ul class="category-list" id="category-list" >
+                   <!--  -->
+                </ul>
+            </div>
+        </div>
+        <!-- Categories -->
+
+         <!-- Total Found -->
+         <div class="container-fluid">
+            <div class="row">
+                <h6 id="totalPostMain"> </h6>
+            </div>
+        </div>
+        <!-- Total Found -->
+
+
+        <!-- Spinner -->
+        <div class="text-center spinner" >
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden"></span>
+            </div>
+          </div>
+        <!-- Spinner -->
+
+
+        <!-- Short -->
+        <div class="container-fluid pt-4 py-4" >
+            <div class="row">
+                <div class="col-9">
+                    <select id="shortID" class="form-select w-25" aria-label="Default select example ">
+                        
+                      </select>
+                </div>
+                <div class="col-3">
+                    <button class="btn btn-primary" >New one</button>
+                    <button class="btn btn-primary" >Old one</button>
+                </div>
+            </div>
+        </div>
+        <!-- Short -->
+
+
+        <!-- Posts -->
+        <div class="container-fluid">
+            <div class="row" id="posts">
+                <h2 class="text-center bg-success text-light p-5">Select any category for news</h2>
+            </div>
+        </div>
+        <!-- Posts -->
+        
+        
+    <!-- Modal -->
+    <div class="mymodal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title title" id="exampleModalLabel"></h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mt-4 mb-4 p-3 ">
+                        <h6>Posted by <b><span id="postedBy"></span></b> || Date: <b><span id="modaldate"></span></b> || <b>Views:</b> <span id="modalviews"></span> </span></h4>
+                    </div>
+                    <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+                        <img id="modalImg" src="" alt="">
+                    </div>
+                    <div class="container mt-4 mb-4 p-3">
+                        <p id="modalDetails"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+
+
+        <!-- Footer -->
+        <footer class="p-4">
+            <h5 class="text-center">All Right Reserved &copy; 2022</h5>
+        </footer>
+        <!-- Footer -->
+
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- Coustom JS -->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+
+</html>
